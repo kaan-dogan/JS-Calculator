@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="output">0</h3>
+    <section id="buttons">
+        <section id="left">
+        <div id="upperButtons">
+            <button type="button" id="clear" class="upper" onclick="clearDisplay()">AC</button>
+            <button type="button" id="negative" class="upper" onclick="negative()">+/-</button>
+            <button type="button" id="percentage" class="upper" onclick="percentage()">%</button>
+        </div>
+        <div id="numbers">
+            <button type="button" id="7" class="number" onclick="seven()">7</button>
+            <button type="button" id="8" class="number" onclick="eight()">8</button>
+            <button type="button" id="9" class="number" onclick="nine()">9</button><br>
+            <button type="button" id="4" class="number" onclick="four()">4</button>
+            <button type="button" id="5" class="number" onclick="five()">5</button>
+            <button type="button" id="6" class="number" onclick="six()">6</button><br>
+            <button type="button" id="1" class="number" onclick="one()">1</button>
+            <button type="button" id="2" class="number" onclick="two()">2</button>
+            <button type="button" id="3" class="number" onclick="three()">3</button><br>
+            <button type="button" id="zero" class="number" onclick="zero()">0</button>
+            <button type="button" id="dot" class="number" onclick="decimal()">.</button>
+        </div>
+        </section>
+        <div id="operators">
+            <button type="button" id="plus" class="operator" onclick="add()">+</button>
+            <button type="button" id="minus" class="operator" onclick="substract()">-</button>
+            <button type="button" id="divide" class="operator" onclick="divide()">÷</button>
+            <button type="button" id="multiply" class="operator" onclick="multiply()">×</button>
+            <button type="button" id="equal" class="operator" onclick="result()">=</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

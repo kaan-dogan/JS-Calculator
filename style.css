@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0;}
+
+body{display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #000; font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+#buttons{display: flex; align-items: center;}
+button {width: 50px; height: 50px; border-radius: 100px; border-style: none; padding: 0px; color:white; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 21px; margin: 0px; margin-top: 5px;}
+#output{border-style: solid; border-width: 2px; line-height: 45px; width: 200px; color: black; border-radius: 25px; float: right; text-align: right; padding-right: 10px; color: white;}
+
+h3{color: white; font-size: 30px;}
+
+#upperButtons button{color: #000;}
+#operators{display: flex; flex-direction: column;}
+#operators button, #numbers #equal{background-color: #ff9f0c;}
+#numbers{margin-right: 5px;}
+#numbers button{background-color: #333333;}
+#zero{width: 100px;}
+
+footer{color: white; margin-top: auto; text-align: center;}
